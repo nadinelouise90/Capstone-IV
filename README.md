@@ -1,13 +1,23 @@
-### Shoe Stock Inventory Warehouse Program 
+# Shoe Warehouse Stock Management System
 
 ## Description:
 A Python program using Object Orientated Programming.
 
-Purpose:
-The aim of the app is to smoothen the stock taking process for the warehouse manager. And it also preforms several tasks as below.
+## Purpose:
+The program allows a stock manager to manage the shoe stock in a warehouse. The manager/user can choose from a range of options, outlined below:
 
 Menu of Functions
 - A: Add a new shoe to the inventory
+
+<img width="356" alt="image" src="https://user-images.githubusercontent.com/108573259/228678202-b30dc30f-09e1-4e0b-b170-ec5282ff373c.png">
+
+
+
+
+
+
+
+
 - B: View all shoes in stock
 - C: View lowest stocked shoe and restock
 - D: Search shoe by code
