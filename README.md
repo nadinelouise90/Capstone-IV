@@ -11,30 +11,33 @@ Menu of Functions
 
 <img width="356" alt="image" src="https://user-images.githubusercontent.com/108573259/228678202-b30dc30f-09e1-4e0b-b170-ec5282ff373c.png">
 
-
-
-
-
-
-
-
 - B: View all shoes in stock
+
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/108573259/228678418-ca03b326-cd9b-4ce8-bbdd-6c30aff8d127.png">
+
 - C: View lowest stocked shoe and restock
+<img width="344" alt="image" src="https://user-images.githubusercontent.com/108573259/228678485-c54ca440-7f98-4cce-8ac9-04fa65342866.png">
+
 - D: Search shoe by code
+<img width="251" alt="image" src="https://user-images.githubusercontent.com/108573259/228678575-8f440a39-dedd-4e8e-9325-4658baa3e0eb.png">
+
 - E: View overall shoe values
+
+<img width="272" alt="image" src="https://user-images.githubusercontent.com/108573259/228678635-eae99470-5866-4b99-9b3d-f727b9579f9e.png">
+
 - F: View highest stocked shoe
+
+<img width="277" alt="image" src="https://user-images.githubusercontent.com/108573259/228678692-af61c3fe-f378-4503-a1fe-2a0fa0a2988d.png">
+
 - Z: Exit program
 
-Function:
+## How does the program work?:
 
-take the external file which store all the stock information, and print it in a user-friendly way
-allow user the input the new item in the file, and save it in the external file which can be called later
-tell the user which is the lowest stock at the moment and ask if they want to restock, and update the new stock amount accordingly
-let the user to search the stock by using the SKU number
-calculate the total value of the stock in the warehouse
-determine the product has highest stock, and promote the product by put it on sale
-Navigation:
-As the function mentioned above, user can navigate to different function in the initialize menu by input the initial of each function.
+- When the program is run, it reads the inventory.txt file which is a list of all stock available, with each shoe on each line. If the file does not exist, an empty inventory file is created with the relevant headings.
+- The program offers the user a list of function options, which when chosen by the user run the specific function. Incorrect selections result in the user being asked to reselect.
+- When a user adds a new shoe to the inventory, this shoe is written to the inventory.txt file as a new line.
+- All other functions require the program to read through the data and display the data depending on the inputted parameters.
+
 
 
 Installation:
